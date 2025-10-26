@@ -1,5 +1,5 @@
-def(string url, string branch) {
+def(String url, String branch) {
   echo"this is cloning the code"
-  git url: url , branch: branch
+  git url: "${url}" , branch: "{branch}"
   echo "code cloning done"
 }
