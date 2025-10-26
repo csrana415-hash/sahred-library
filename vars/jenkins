@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo "hello from agent"
                 hellow()   // This calls the function from your shared library
-                echo "from scm auto build pipeline"
+                echo "from scm auto build pipelines"
             }
         }
     }
