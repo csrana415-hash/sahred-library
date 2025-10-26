@@ -1,0 +1,13 @@
+@Library("shared") _
+pipeline {
+    agent { label "vinod" }
+    stages {
+        stage("hello from groovy") {
+            steps {
+                echo "hello from agent"
+                hellow()   // This calls the function from your shared library
+                echo "from scm auto build pipeline"
+            }
+        }
+    }
+}
