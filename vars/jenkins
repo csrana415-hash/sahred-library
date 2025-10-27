@@ -1,6 +1,6 @@
 @Library("shared") _
 pipeline {
-    agent { label "vinod" }
+    agent any
     stages {
         stage("hello from groovy") {
             steps {
