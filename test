@@ -5,6 +5,7 @@ pipeline{
             steps{
                 echo "i am from agent side"
                 sh 'hostname'
+                echo "hellow sir"
             }
         }
     }
