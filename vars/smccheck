@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage("checking") {
             steps{
-                echo "i am from agent sidess"
+                echo "i am from agent sides"
                 sh 'hostname'
             }
         }
