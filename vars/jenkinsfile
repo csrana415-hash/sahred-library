@@ -5,7 +5,7 @@ pipeline {
         stage("hello from groovy") {
             steps {
                 echo "hello from agent"
-                hellow()   // This calls the function from your shared library
+                hellow()   // This calls the function from your shared library 
             }
         }
     }
