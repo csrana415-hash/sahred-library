@@ -1,0 +1,11 @@
+pipeline{
+    agent any
+    stages{
+        stage("checking") {
+            steps{
+                echo "i am from agent side"
+                sh 'hostname'
+            }
+        }
+    }
+}
