@@ -1,9 +1,9 @@
 pipeline{
-    agent {label "vinod"}
+    agent any
     stages{
         stage("checking") {
             steps{
-                echo "i am from agent side"
+                echo "i am from agent sides"
                 sh 'hostname'
             }
         }
